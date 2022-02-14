@@ -1,0 +1,12 @@
+git使用
+修改文件后
+git add filename
+git status
+git commit -m ''
+git status
+
+返回文件上一版本
+git log（提交日志）
+git reflog（命令日志）
+git checkout -- file(让这个文件回到最近一次git commit或git add时的状态。)
+git reset --hard HEAD^（返回指针）
